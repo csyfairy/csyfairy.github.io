@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 26.667vw;
+}
+
+#header {
+    padding: 0.03rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_left {
+    /* border: 1px solid; */
+    width: 0.95rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .header_left div {
+    float: left;
+    margin: 0 0.1rem 0 0.03rem;
+} */
+
+.header_left span {
+    display: inline-block;
+    width: 0.07rem;
+    height: 0.07rem;
+    background: #000;
+    border-radius: 50%;
+    margin-right: -0.02rem;
+}
+
+.header_left p {
+    font-size: 0.12rem;
+    color: rgb(97, 96, 96);
+}
+
+#blank {
+    /* border: 1px solid; */
+    height: 0.03rem;
+    background: rgb(233, 233, 233);
+}
+
+#search {}
+
+#search_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search_top form {
+    width: 0.68rem;
+    border: none;
+}
+
+#search_top select {
+    /* color: indianred; */
+    border: none;
+}
+
+/* #search_top select option{
+    font-size: 0.12rem;
+} */
+
+#searchTop_input input {
+    width: 2.3rem;
+    height: 0.22rem;
+    border-radius: 0.1rem;
+    border: none;
+    background: rgb(236, 235, 235);
+    padding-left: 0.1rem;
+    color: #999;
+    font-size: 0.12rem;
+}
+
+#search_top .mystyle {
+    color: rgb(252, 134, 98);
+    font-size: 0.22rem;
+}
+
+#search_top #search_right {
+    margin-right: 0.1rem;
+}
